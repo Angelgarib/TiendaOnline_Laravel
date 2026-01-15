@@ -206,6 +206,6 @@ Tienda online de juegos de mesa "Board this way!".
 
 • Autores y créditos: 
 - Ángel José García Ibáñez
-- GitHub: https://github.com/Angelgarib/Proyecto_TiendaOnline.git
+- GitHub: https://github.com/Angelgarib/TiendaOnline_Laravel.git
 
 • Licencia para uso educativo.
