@@ -1,5 +1,5 @@
 {{-- Sistema de Notificaciones Flash --}}
-<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-6">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-0">
     @if (session('success'))
         <div class="bg-green-100 border-l-4 border-green-500 text-green-700 p-4 rounded-md shadow-sm" role="alert">
             <p class="font-bold">✓ Éxito</p>

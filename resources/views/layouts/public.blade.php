@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <link rel="icon" href="{{ asset('favicon.png') }}" type="image/png">
     @include('partials.head')
 </head>
 <body class="bg-gray-50">

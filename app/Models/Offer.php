@@ -21,6 +21,7 @@ class Offer extends Model
         'description',
         'start_date',
         'end_date',
+        'active',
     ];
 
     /**
@@ -29,7 +30,7 @@ class Offer extends Model
      * @var list<string>
      */
     protected $hidden = [
-        'active',
+        
     ];
 
     /**

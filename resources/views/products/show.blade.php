@@ -30,7 +30,7 @@
                             ¡Ahorra €{{ number_format($product->price - $product->final_price, 2) }}!
                         </p>
                     @else
-                        <span class="text-4xl font-bold text-primary-600">€{{ number_format($product->price, 2) }}</span>
+                        <span class="text-4xl font-bold text-green-400">€{{ number_format($product->price, 2) }}</span>
                     @endif
                 </div>
             

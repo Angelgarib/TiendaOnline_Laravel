@@ -3,12 +3,12 @@
 @section('title', 'Contacto - Board this way!')
 
 @section('content')
-<div class="container mx-auto px-6 py-16">
-    <div class="max-w-2xl mx-auto">
-
+<x-guest-layout>
+<div class="container">
+    <div >
         <!-- Encabezado -->
         <div class="mb-10 text-center">
-            <h1 class="text-4xl font-extrabold text-gray-900 mb-4">
+            <h1 class="text-4xl font-extrabold text-gray-900 mt-6 mb-4">
                 Contacta con nosotros
             </h1>
             <p class="text-gray-600 text-lg">
@@ -17,7 +17,7 @@
         </div>
 
         <!-- Card -->
-        <div class="bg-blue-100 rounded-2xl shadow-lg p-8">
+        <div >
             <form method="POST" action="">
                 @csrf
 
@@ -30,7 +30,7 @@
                             id="name"
                             name="name"
                             type="text"
-                            class="mt-1 block w-full"
+                            class="mt-1 block w-full border-black"
                             required
                             autofocus
                             :value="old('name')"
@@ -95,4 +95,5 @@
 
     </div>
 </div>
+</x-guest-layout>
 @endsection

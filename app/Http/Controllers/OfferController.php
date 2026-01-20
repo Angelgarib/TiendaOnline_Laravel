@@ -9,14 +9,19 @@ use Illuminate\View\View;
 class OfferController extends Controller
 {
     /**
-     * Show all offers
+     * Muestra por separado las ofertas actuales y las no aplicadas
      */
     public function index(): View
     {
-        $offers = Offer::all();
-        
-        return view('offers.index', ['offers' => $offers]);
+        $activeOffers = Offer::whereHas('products')
+            ->get();
+
+        $upcomingOffers = Offer::WhereDoesntHave('products')
+            ->get();
+
+        return view('offers.index', compact('activeOffers', 'upcomingOffers'));
     }
+
 
     /**
      * Show products with a specific offer
