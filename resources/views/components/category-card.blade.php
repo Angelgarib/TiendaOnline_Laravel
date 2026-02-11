@@ -12,7 +12,7 @@
     $class }}  hover:bg-blue-200 transition transform hover:scale-105">
     
     <!-- Imagen -->
-    <div style="background-image: url('{{ asset('storage/products/' . $category->slug . '.jpg') }}')" class="hero-bg relative text-white py-14" >
+    <div style="background-image: url('{{ asset('storage/' . $category->image) }}')" class="hero-bg relative text-white py-14" >
     <!-- Overlay oscuro -->
         <div class="absolute inset-0 bg-black/40"></div>
             <div class="container mx-auto px-6 text-center relative z-10">

@@ -13,6 +13,7 @@
                     <li><a href="{{ route('products.index') }}" class="hover:textwhite transition">Productos</a></li>
                     <li><a href="{{ route('categories.index') }}" class="hover:text-white transition">Géneros</a></li>
                     <li><a href="{{ route('offers.index') }}" class="hover:text-white transition">Ofertas</a></li>
+                    <li><a href="{{ route('login') }}" class="hover:text-white transition">Iniciar sesión</a></li>
                 </ul>
             </div>
             <div class="border-l-2 border-gray-700">
@@ -21,6 +22,7 @@
                     <li>📞 963 123 123</li>
                     <li>📧 boardthisgame@gmail.com</li>
                     <li>🕒 Horario: 10:00 - 19:00</li>
+                    <li><a href="{{ route('stores.index') }}" class="hover:text-white transition">📍 Nuestras tiendas</a></li>
                     <li><a href="{{ route('contact') }}" class="hover:text-white transition">💬 Contacta con nosotros</a></li>
                 </ul>
             </div>
@@ -31,6 +33,7 @@
                     <li><a href="https://www.instagram.com/" class="hover:text-white transition">📷 Instagram</a></li>
                     <li><a href="https://www.linkedin.com/" class="hover:text-white transition">🛜 LinkedIn</a></li>
                     <li><a href="https://www.bsky.app/" class="hover:text-white transition">🦋 BlueSky</a></li>
+                    <li><a href="https://www.tiktok.com/" class="hover:text-white transition">🔊 TikTok</a></li>
                 </ul>
             </div>
         </div>
